@@ -1,0 +1,21 @@
+.flex--container{
+    background-color: #2eca7f;
+    width: 1000px;
+    display: flex;
+    /*flex-direction: column;*/
+    /*padding: 2px ;*/
+    justify-content: space-evenly;
+    /*align-items:baseline;*/
+    /*flex-wrap: wrap;*/
+    /*align-content:space-evenly;*/
+
+}
+.flex-items{
+    background-color: green;
+    width: 10%;
+    height: 200px;
+    /*margin:10px 5px 10px 5px;*/
+    border: #212121 1px solid;
+    text-align: center;
+    
+}

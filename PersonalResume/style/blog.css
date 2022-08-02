@@ -1,12 +1,3 @@
-body {
-    width: 100%;
-    max-width: 1000px;
-    margin: 0 auto;
-    font-family: 'Montserrat', Helvetica, sans-serif;
-    color: #424242;
-    font-size: 15px;
-    line-height: 1.6em;
-}
 
 .blog_main {
     background-color: white;
