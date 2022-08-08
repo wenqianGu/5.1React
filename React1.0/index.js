@@ -1,9 +1,8 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom'
+import App from "./App";
+// import App from "./App";
 
 ReactDOM.render((
-    <div>
-    <div>Hello, world </div>
-    <a href='www.google.com'>Google</a>
-    </div>
+    <App/>
 ), document.querySelector('#app'));
