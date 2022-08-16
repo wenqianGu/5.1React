@@ -1,7 +1,7 @@
 import React from 'react';
 
 const BlogPage = () => (
-    <div className="blog_main">
+    <div id="BLOG" className="page">
         <div className="page__title__name">
             <h2>Blog</h2>
         </div>

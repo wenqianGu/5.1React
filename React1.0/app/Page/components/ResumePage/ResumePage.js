@@ -1,6 +1,8 @@
 import React from 'react-dom';
 
 const ResumePage = () => (
-    <div>Resume Page</div>
+    <div id="RESUME" className="page">
+        Resume Page
+    </div>
 );
 export default ResumePage;

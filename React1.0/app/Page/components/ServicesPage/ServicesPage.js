@@ -1,7 +1,7 @@
-import React from "react-dom";
+import React from "react";
 
 const ServicesPage = () => (
-    <div className="main">
+    <div id="SERVICES" className="page">
         <div className="page__title__name">
             <h2>Services</h2>
         </div>
@@ -92,6 +92,5 @@ const ServicesPage = () => (
             </a>
         </div>
     </div>
-
 );
 export default ServicesPage;
