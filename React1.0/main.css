@@ -4,6 +4,14 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 .pages {
     padding: 15px 0;
     position: relative;

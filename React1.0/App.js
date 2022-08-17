@@ -51,7 +51,7 @@ class App extends React.Component {
                 <Header 
                 // 函数是平头老百姓
                 // 传递两个props给Header 
-                onPageChnage = {this.handlePageChange}
+                onPageChange = {this.handlePageChange}
                 page={page} />
                 <Page page={page} />
                 <Footer />

@@ -37,13 +37,13 @@ const NavbarItem = styled.button`
     text-decoration: none;
     color: #49515d;
     font-size: 15px;
-    opacity: ${(props) => props.active ? '1' : '0.6'}; 
+    opacity: ${(props) => props.abc ? '1' : '0.6'}; 
     display: block;
     transition: opacity 0.3s ease-in-out;
   
     &::after {
         content: "";
-        width: ${({active}) => active ? '24px' : '0'}; 
+        width: ${({abc}) => abc ? '24px' : '0'}; 
         border-bottom: 3px solid #377e9a;
         margin: auto;
         margin-top: 4px;
@@ -71,7 +71,7 @@ const NavbarItem = styled.button`
 // function component -> 用花括号的形式去接受参数；
 const Header = ({
     page,
-    onPageChnage,
+    onPageChange,
 }) => {
     //const { page } = props;
     // const page = "SERVICES";
@@ -98,10 +98,10 @@ const Header = ({
                     {navbarItems.map((navbarItem) => (
                         <NavbarItem
                             onClick = { () => {
-                                onPageChnage(navbarItem.key);
+                                onPageChange(navbarItem.key);
                             }}
                             key = {navbarItem.key}
-                            active={page === navbarItem.key}
+                            abc={page === navbarItem.key}
                             href={navbarItem.value}
                         >
                             {navbarItem.value}
